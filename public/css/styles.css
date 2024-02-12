@@ -1,0 +1,135 @@
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 5px;
+    position: sticky;
+    top: 0;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: auto;
+	font-size: 16px;
+  color: #fff;
+  padding :12px;
+}
+
+  
+  .listhd {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .box {
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgb(253, 251, 251);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #heading {
+    background-color: #A683E3;
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form.item {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .listbtn {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #A683E3;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 40px;
+    top: 10px;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 500px;
+  }
+  .hd2{
+    margin-top: 10px;;
+  }
+  .txta{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+  
+  .foot {
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
